@@ -1,0 +1,22 @@
+{
+  "name": "taldom/org",
+  "description": "Taldom.org web applicatio ",
+  "authors": [
+    {
+      "name": "Viktor Kulikov",
+      "email": "vk@taldom.org"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "propel/propel": "~2.0@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.4.*"
+  }
+}
